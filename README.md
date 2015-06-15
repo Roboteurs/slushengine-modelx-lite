@@ -13,6 +13,9 @@ If you want to get going on your own project using the SlushEngine please fork i
 - UEXT Connector for expansion modules
 - Temperature sensing inputs
 - Logic level I/Os
+- MAX1164 for temperature sensor handling (2 Channels)
+- MCP23017 for I/O expansion on I2C bus
+- Raspberry Pi Hat spec eeprom circuit
 
 ## Basic Electrical Characteristics ##
 
@@ -25,3 +28,4 @@ If you want to get going on your own project using the SlushEngine please fork i
 ## Avalible Hardware mods
 
 - **R111** Can be changed to compensate for off voltage motor (see L6470 datasheet)
+- **JP101** Can be cut to prevent board from powering an expansion module (bottom of the board)
