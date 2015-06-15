@@ -50,7 +50,7 @@ F 0 "P105" H 4900 6250 60  0000 C CNN
 F 1 "Raspberry_Pi_+_Conn" H 6300 2850 60  0000 C CNN
 F 2 "w_pin_strip:pin_strip_20x2" H 6000 4300 60  0001 C CNN
 F 3 "" H 6000 4300 60  0000 C CNN
-F 4 "517-30340-6002" H 6000 4300 60  0001 C CNN "Mouser Part No."
+F 4 "855-M20-7832046" H 6000 4300 60  0001 C CNN "Mouser Part No."
 	1    6000 4300
 	-1   0    0    -1  
 $EndComp
