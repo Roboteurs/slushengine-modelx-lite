@@ -21,3 +21,7 @@ If you want to get going on your own project using the SlushEngine please fork i
 - **No Load Current:** *unkown*
 - **Max SPI bus Frequency:** 5Mhz
 - **Max Tempratre at L6470L** *unkown*
+
+## Avalible Hardware mods
+
+- **R111** Can be changed to compensate for off voltage motor (see L6470 datasheet)
