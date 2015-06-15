@@ -1,4 +1,4 @@
-update=Mon 08 Jun 2015 05:04:21 PM EDT
+update=Sun 14 Jun 2015 06:30:24 PM EDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -72,3 +72,13 @@ LibName37=project_libs/mcp23017
 LibName38=project_libs/raspberry_pi_+_conn
 LibName39=project_libs/max1164x
 LibName40=project_libs/l6470H
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

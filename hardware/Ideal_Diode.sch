@@ -9,7 +9,7 @@ LIBS:mcp23017
 LIBS:raspberry_pi_+_conn
 LIBS:max1164x
 LIBS:l6470H
-LIBS:motion_engine_hatish-cache
+LIBS:slushengine_modelx_lite-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
