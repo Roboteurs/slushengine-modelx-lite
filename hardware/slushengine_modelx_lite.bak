@@ -1,4 +1,33 @@
 EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:cat24c32hu4i-gt3
 LIBS:components
 LIBS:DMMT5401
@@ -421,106 +450,6 @@ Text Label 11800 7300 0    47   ~ 0
 MTR_RESET
 Text Label 8250 5200 2    47   ~ 0
 MTR_RESET
-$Comp
-L R R111
-U 1 1 54EC9614
-P 9650 7500
-F 0 "R111" V 9730 7500 40  0000 C CNN
-F 1 "11k" V 9657 7501 40  0000 C CNN
-F 2 "w_smd_resistors:r_0402" V 9580 7500 30  0001 C CNN
-F 3 "http://www.digikey.ca/product-detail/en/MCR50JZHJ332/RHM3.3KBGCT-ND/2291227" H 9650 7500 30  0001 C CNN
-F 4 "RHM3.3KBGCT-ND" H 4800 -7850 60  0001 C CNN "Digikey Number"
-F 5 "71-CRCW0402-11K-E3" V 9650 7500 60  0001 C CNN "Mouser Part No."
-	1    9650 7500
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R112
-U 1 1 54EC961C
-P 9650 8700
-F 0 "R112" V 9730 8700 40  0000 C CNN
-F 1 "820" V 9657 8701 40  0000 C CNN
-F 2 "w_smd_resistors:r_0402" V 9580 8700 30  0001 C CNN
-F 3 "http://www.digikey.ca/product-detail/en/RC1608J821CS/1276-5060-1-ND/3968032" H 9650 8700 30  0001 C CNN
-F 4 "1276-5060-1-ND" H 4800 -7850 60  0001 C CNN "Digikey Number"
-F 5 "754-RR0510P-821D" V 9650 8700 60  0001 C CNN "Mouser Part No."
-	1    9650 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR012
-U 1 1 54EC9623
-P 9650 9050
-F 0 "#PWR012" H 9650 9050 30  0001 C CNN
-F 1 "GND" H 9650 8980 30  0001 C CNN
-F 2 "" H 9650 9050 60  0000 C CNN
-F 3 "" H 9650 9050 60  0000 C CNN
-	1    9650 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +24V #PWR013
-U 1 1 54EC9629
-P 9650 7150
-F 0 "#PWR013" H 9650 7100 20  0001 C CNN
-F 1 "+24V" H 9650 7250 30  0000 C CNN
-F 2 "" H 9650 7150 60  0000 C CNN
-F 3 "" H 9650 7150 60  0000 C CNN
-	1    9650 7150
-	1    0    0    -1  
-$EndComp
-Text Label 10800 8100 2    47   ~ 0
-STEPPERS_SENSE
-Text Notes 9750 7950 0    60   ~ 0
-Ideally the voltage at\n24V_ADC should be very\nclose to: 0.5 * 3.3V
-$Comp
-L C C108
-U 1 1 54EC963A
-P 10300 8600
-F 0 "C108" H 10350 8700 50  0000 L CNN
-F 1 "33nF" H 10350 8500 50  0000 L CNN
-F 2 "w_smd_cap:c_0402" H 10300 8600 60  0001 C CNN
-F 3 "http://www.digikey.ca/product-detail/en/CL10B333KB8SFNC/1276-2042-1-ND/3890128" H 10300 8600 60  0001 C CNN
-F 4 "1276-2042-1-ND" H 4800 -7850 60  0001 C CNN "Digikey Number"
-F 5 "81-GRM36X333K10" H 10300 8600 60  0001 C CNN "Mouser Part No."
-	1    10300 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR014
-U 1 1 54EC9641
-P 10000 9050
-F 0 "#PWR014" H 10000 9050 30  0001 C CNN
-F 1 "GND" H 10000 8980 30  0001 C CNN
-F 2 "" H 10000 9050 60  0000 C CNN
-F 3 "" H 10000 9050 60  0000 C CNN
-	1    10000 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR015
-U 1 1 54EC9647
-P 10300 9050
-F 0 "#PWR015" H 10300 9050 30  0001 C CNN
-F 1 "GND" H 10300 8980 30  0001 C CNN
-F 2 "" H 10300 9050 60  0000 C CNN
-F 3 "" H 10300 9050 60  0000 C CNN
-	1    10300 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L ZENER D103
-U 1 1 54EC9659
-P 10000 8600
-F 0 "D103" H 10000 8700 50  0000 C CNN
-F 1 "3.3V" H 10000 8500 40  0000 C CNN
-F 2 "w_smd_diode:sod523" H 10000 8600 60  0001 C CNN
-F 3 "http://www.digikey.ca/product-detail/en/CD0603-Z3V3/CD0603-Z3V3CT-ND/3534291" H 10000 8600 60  0001 C CNN
-F 4 "CD0603-Z3V3CT-ND" H 4800 -7850 60  0001 C CNN "Digikey Number"
-F 5 "652-CD0603-Z3V3" H 10000 8600 60  0001 C CNN "Mouser Part No."
-	1    10000 8600
-	0    -1   -1   0   
-$EndComp
 Text Label 11800 7050 0    47   ~ 0
 STEPPERS_SENSE
 Text Label 11800 5000 0    47   ~ 0
@@ -1241,7 +1170,6 @@ F 3 "" H 5050 8750 60  0000 C CNN
 	1    5050 8750
 	-1   0    0    1   
 $EndComp
-Connection ~ 9650 8100
 Wire Wire Line
 	5750 8750 5250 8750
 Wire Wire Line
@@ -1616,24 +1544,6 @@ Wire Wire Line
 	12800 5000 11800 5000
 Wire Wire Line
 	12800 7050 11800 7050
-Connection ~ 10300 8100
-Wire Wire Line
-	10300 8750 10300 9050
-Wire Wire Line
-	10000 8800 10000 9050
-Connection ~ 10000 8100
-Wire Wire Line
-	10000 8100 10000 8400
-Wire Wire Line
-	10300 8100 10300 8450
-Wire Wire Line
-	9650 8100 10800 8100
-Wire Wire Line
-	9650 7650 9650 8550
-Wire Wire Line
-	9650 8850 9650 9050
-Wire Wire Line
-	9650 7150 9650 7350
 Wire Wire Line
 	7450 5200 8250 5200
 Wire Wire Line
